@@ -41,7 +41,7 @@ class _NotesPageState extends State<NotesPage> {
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(
           title: Text(
-            'Personalgradlew signingreport',
+            'Personal Note',
             style: TextStyle(
               fontFamily: 'Caveat',
               color: Colors.white,
