@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:notesbook/page/notes_page.dart';
+import 'package:notesbook/page/splash_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -21,6 +22,6 @@ class MyApp extends StatelessWidget {
         elevation: 0,
       ),
     ),
-    home: NotesPage(),
+    home: Pixel(),
   );
 }
